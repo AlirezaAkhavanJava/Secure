@@ -1,0 +1,11 @@
+#services:
+#  db:
+#    image: mysql:latest
+#    ports:
+#      - "8085:3306"
+#    #    restart: always
+#    environment:
+#      MYSQL_ROOT_PASSWORD: 9908
+#      MYSQL_DATABASE: water_task_db
+#    volumes:
+#      - /home/ethan/Desktop/trash:/var/lib/mysql  # Only for practice
